@@ -1,0 +1,25 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  line-height: 1.5;
+  font-family: Inter, sans-serif;
+}
+
+body {
+  background: black;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.hero img {
+  display: block;
+  margin: 0 auto;
+  min-width: 512px;
+  width: 80%;
+}
