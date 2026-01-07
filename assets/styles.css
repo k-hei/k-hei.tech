@@ -57,14 +57,14 @@ body {
     display: block;
     margin: 0 auto;
     max-width: 1024px;
-    width: 90%;
+    width: 95%;
 }
 
 .logo img {
     bottom: 0;
     display: block;
     left: 50%;
-    margin: 2rem;
+    margin: 2rem 0;
     max-width: 256px;
     position: fixed;
     transform: translateX(-50%);
@@ -79,6 +79,7 @@ body {
 
     .logo img {
         left: auto;
+        margin: 2rem;
         right: 5%;
         transform: initial;
     }
