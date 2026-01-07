@@ -32,7 +32,7 @@ body {
 
 .social {
   min-width: 2rem;
-  max-width: 4rem;
+  max-width: 3rem;
   width: 3vw;
 }
 
@@ -51,9 +51,23 @@ body {
   bottom: 0;
   display: block;
   left: 50%;
-  margin: 2rem 0;
+  margin: 2rem;
   max-width: 256px;
   position: fixed;
   transform: translateX(-50%);
   width: 40%;
+}
+
+@media screen and (min-width: 1440px) {
+
+  .socials {
+    gap: 2rem;
+  }
+
+  .logo img {
+    left: auto;
+    right: 5%;
+    transform: initial;
+  }
+
 }
