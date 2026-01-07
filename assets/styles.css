@@ -11,15 +11,30 @@ html {
 }
 
 body {
+  align-items: center;
   background: black;
   color: white;
-  padding: 1rem 0;
   text-align: center;
 }
 
-.hero img {
+.rows {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30vh;
+}
+
+.title img {
   display: block;
   margin: 0 auto;
-  min-width: 512px;
-  width: 80%;
+  width: 90%;
+}
+
+.logo img {
+  bottom: 0;
+  display: block;
+  left: 50%;
+  margin: 2rem 0;
+  position: fixed;
+  transform: translateX(-50%);
+  width: 40%;
 }
