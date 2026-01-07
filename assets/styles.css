@@ -31,11 +31,9 @@ body {
 }
 
 .social {
-  width: 3rem;
-}
-
-.social.-steam, .social.-x {
-  padding: 0.3rem;
+  min-width: 2rem;
+  max-width: 4rem;
+  width: 3vw;
 }
 
 .social img {
@@ -45,6 +43,7 @@ body {
 .title img {
   display: block;
   margin: 0 auto;
+  max-width: 1024px;
   width: 90%;
 }
 
@@ -53,6 +52,7 @@ body {
   display: block;
   left: 50%;
   margin: 2rem 0;
+  max-width: 256px;
   position: fixed;
   transform: translateX(-50%);
   width: 40%;
