@@ -20,7 +20,26 @@ body {
 .rows {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
   margin-top: 30vh;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.social {
+  width: 3rem;
+}
+
+.social.-steam, .social.-x {
+  padding: 0.3rem;
+}
+
+.social img {
+  width: 100%;
 }
 
 .title img {
