@@ -31,9 +31,22 @@ body {
 }
 
 .social {
+  display: block;
   min-width: 2rem;
   max-width: 3rem;
   width: 3vw;
+}
+
+.social:hover {
+  /* color: #b5c0f0 */
+  filter: brightness(0)
+    saturate(100%)
+    invert(78%)
+    sepia(13%)
+    saturate(724%)
+    hue-rotate(193deg)
+    brightness(96%)
+    contrast(96%);
 }
 
 .social img {
