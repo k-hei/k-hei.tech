@@ -61,6 +61,11 @@ body {
     width: 95%;
 }
 
+.itch-embed {
+    display: none;
+    margin-bottom: 4rem;
+}
+
 .screenshots {
     display: flex;
     flex-wrap: wrap;
@@ -86,6 +91,10 @@ body {
 
 @media screen and (min-width: 640px) {
 
+    .itch-embed {
+        display: block;
+    }
+    
     .screenshots {
         margin-bottom: 320px;
     }
