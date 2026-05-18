@@ -105,4 +105,9 @@ body {
         transform: initial;
     }
 
+    .screenshots {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
